@@ -45,4 +45,4 @@ def getPermutations(string):
 if __name__ == "__main__":
 	for i in getPermutations('012'):
 		print i
-	print map(str,lexi(list([0,1,2])))
+	print map(str,lexi(list([3,5,7])))
