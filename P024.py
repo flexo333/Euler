@@ -1,13 +1,10 @@
 def lexi(number_l):
 	number_list = number_l
-	print 'Lexi has been initiated with: ' + str(number_list)
 	if len(number_list)<=1:
 		yield str(number_list[0])
 	else:
-		for x in xrange(len(number_list)):
-			print 'run lexi with' + str(number_list[:x]+number_list[x+1:])
-			for y in lexi(number_list[:x]+number_list[x+1:]):
-				print 'yield with  ' + str(number_list[x]) + str(y)
+		for x in number_list:
+			for y in lexi([i for i in number_list if i != x]):
 				yield str(x) + str(y)
 				
 
@@ -43,6 +40,8 @@ def getPermutations(string):
                 yield string[i] + perm
 
 if __name__ == "__main__":
-	for i in getPermutations('012'):
-		print i
-	print map(str,lexi(list([3,5,7])))
+	# for i in getPermutations('012'):
+	# 	print i
+	# print map(str,lexi(list([0,1,2,3,4,5,6,7,8,9])))
+
+	print [sum for i in (lexi(list([0,1,2,3,4,5,6,7,8,9])))]
