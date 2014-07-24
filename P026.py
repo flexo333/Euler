@@ -1,7 +1,7 @@
 def recur_fract(x):
 	pattern = ''
 	divisor = x
-	top_num = 1000
+	top_num = 10
 	for i in xrange(10000):
 		a,b =  divmod(top_num, x)
 		if b == 0:
@@ -35,25 +35,25 @@ def problem():
 		return max_item
 
 if __name__ == "__main__":
-	# problem()
-	# my_out=False
-	# pattern = ''
-	# divisor = 983
-	# top_num = 1000
-	# for i in xrange(10000):
-	# 	a,b =  divmod(top_num, divisor)
-	# 	# if b == 0:
-	# 	# 	pattern += str(a)
-	# 	# 	print False
-	# 	# 	break
-	# 	# else:
-	# 	pattern += str(a)
-	# 	digits = len(pattern)
-	# 	for d in range(1, digits/2+1):
-	# 		if pattern[digits-2*d:digits-d] ==	pattern[digits-d:]:
-	# 				print pattern[digits-d:]
-	# 				print pattern
-	# 				my_out = True
+	problem()
+	my_out=False
+	pattern = ''
+	divisor = 983
+	top_num = 1000
+	for i in xrange(10000):
+		a,b =  divmod(top_num, divisor)
+		# if b == 0:
+		# 	pattern += str(a)
+		# 	print False
+		# 	break
+		# else:
+		pattern += str(a)
+		digits = len(pattern)
+		for d in range(1, digits/2+1):
+			if pattern[digits-2*d:digits-d] ==	pattern[digits-d:]:
+					print pattern[digits-d:]
+					print pattern
+					my_out = True
 	# 	if my_out:
 	# 		break
 	# 	top_num = b * 10
