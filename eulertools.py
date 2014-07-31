@@ -2,7 +2,7 @@ answerhash ={1: -159953675, 2: -1337476823, 3: 634321538, 4: -238341804, 5: 7530
 
 def answer_test():
 	# numb=xrange(1,8)
-	numb = [29]
+	numb = [30]
 	for item in numb:
 		module_name = 'P' + str(item).zfill(3) 
 		new_module = __import__(module_name)
