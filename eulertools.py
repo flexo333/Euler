@@ -2,7 +2,7 @@ answerhash ={1: -159953675, 2: -1337476823, 3: 634321538, 4: -238341804, 5: 7530
 
 def answer_test():
 	# numb=xrange(1,8)
-	numb = [26]
+	numb = [27]
 	for item in numb:
 		module_name = 'P' + str(item).zfill(3) 
 		new_module = __import__(module_name)
@@ -11,7 +11,6 @@ def answer_test():
 			print str(item) + ': Correct Answer'
 		else:
 			print str(item) + ': Incorrect'
-
 
 def product(A):
 	output = 1
@@ -67,4 +66,3 @@ def factorise(P,x):
 if __name__ == "__main__":
 	# primeseive(2000000)
 	answer_test()
-	# sundaram3(2000000)
