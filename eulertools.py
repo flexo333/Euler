@@ -43,6 +43,15 @@ def primeseive(n):
 	# return [2] + filter(None, numbers)
 	return [i for i,x in enumerate(output) if x==0 and i>=2]
 
+def isprime(self):
+	n = abs(self)
+	if n == 1 or n ==2 or n == 0:
+		return True
+	for i in range(2,int(n**0.5)+1):
+		if n%i == 0:
+			return False
+	return True
+
 def factorise(P,x):
 	r = x
 	output = []
