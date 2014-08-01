@@ -18,7 +18,7 @@ def product(A):
 		output *= a
 	return output
 
-def sundaram3(max_n):
+def primeseive(max_n):
     numbers = range(3, max_n+1, 2)
     half = (max_n)//2
     initial = 4
@@ -31,7 +31,7 @@ def sundaram3(max_n):
         if initial > half:
             return [2] + filter(None, numbers)
 
-def primeseive(n):
+def sundaram3(n):
 	output = [0 for i in xrange(n+1)]
 	for k in xrange(4,n+1,2):
 			output[k] = 1
