@@ -11,4 +11,4 @@ def problem():
 	return my_array[0][0]
 
 if __name__ == "__main__":
-	problem()
+	print problem()

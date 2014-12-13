@@ -11,7 +11,6 @@ def problem():
 		for i in str(n):
 			sum_factn += fact(int(i))
 		if sum_factn == n:
-			print n
 			sumfact +=n
 
 	return sumfact

@@ -69,7 +69,7 @@ def problem():
 	return sumn
 
 if __name__ == "__main__":
-	problem()
+	print problem()
 	# print iterative_factorial(5)
 	# import eulertools as et
 

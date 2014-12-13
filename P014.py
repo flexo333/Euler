@@ -42,4 +42,4 @@ def problem():
 
 
 if __name__ == "__main__":
-	problem()
+	print problem()
