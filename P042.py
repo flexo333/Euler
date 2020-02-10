@@ -27,4 +27,4 @@ def problem():
 	return n
 
 if __name__ == "__main__":
-	print problem()
+	print(problem())

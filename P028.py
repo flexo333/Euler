@@ -9,4 +9,4 @@ def problem():
 	return sumsq
 
 if __name__ == "__main__":
-	print problem()
+	print(problem())

@@ -3,7 +3,7 @@ def problem():
 
 	# What is the largest prime factor of the number 600851475143 ?
 	factors = []
-	print 5* 7* 13 * 29
+	print(5* 7* 13 * 29)
 
 	numt = 600851475143
 
@@ -16,7 +16,7 @@ def problem():
 					break
 			i += 1
 
-	print factors
+	print(factors)
 
 
 if __name__ == "__main__":

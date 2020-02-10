@@ -25,9 +25,9 @@ def series_function(number):
 
 
 def problem():
-	calculated = list(0 for x in xrange(1000000))
+	calculated = list(0 for x in range(1000000))
 	
-	for item in xrange(1,1000000):
+	for item in range(1,1000000):
 		x = item
 		chain = 1
 		while (not x == 1) and x >= item:
@@ -42,4 +42,4 @@ def problem():
 
 
 if __name__ == "__main__":
-	print problem()
+	print(problem())

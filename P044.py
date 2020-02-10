@@ -35,10 +35,11 @@ def pent_dict():
 
 def problem():
 
-        # print i
-        # print pent(a), pent(b)
+        print(i)
+        print(pent(a), pent(b))
 
 
 if __name__ == "__main__":
-    print(problem())
-    # print [i for i in lexi(xrange(1,10),2)]
+    print((problem()))
+    f = [i for i in lexi(range(1,10),2)]
+    print(f)

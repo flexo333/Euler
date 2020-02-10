@@ -11,8 +11,8 @@ class Found(Exception): pass
 def problem():
 	#First Attempt Using Nested Loops
 	try:
-		for x in xrange(1, 1001):
-			for y in xrange(1, 1001):
+		for x in range(1, 1001):
+			for y in range(1, 1001):
 				z = sum_int - x -y
 				if z < 0:
 					next
@@ -25,14 +25,14 @@ def problem():
 def problem_alt():
 	#Second Attempt using nested Tuples.
 	# for x, y in [(x,y) for x in xrange(1, 1001) for y in xrange(1, 1001)]:
-	for x in xrange(1, 1001):
-	 for y in xrange(1, 1001):
+	for x in range(1, 1001):
+	 for y in range(1, 1001):
 		z = sum_int - x -y
 		if z < 0:
 			next
 		if z**2 == (x**2+y**2):
 			break
-	print x*y*z 
+	print(x*y*z) 
 
 
 

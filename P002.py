@@ -18,7 +18,7 @@ def problem():
 	fib_list.pop()
 
 
-	return sum(filter(lambda x: x%2==0, fib_list))
+	return sum([x for x in fib_list if x%2==0])
 
 
 if __name__ == "__main__":

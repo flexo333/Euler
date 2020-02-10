@@ -7,7 +7,7 @@ def fibonacci(x):
 	if x > 1:	
 		yield fb
 	if x > 2:
-		for item in xrange(3,x+1):
+		for item in range(3,x+1):
 			interim=fa+fb
 			fa=fb
 			fb = interim

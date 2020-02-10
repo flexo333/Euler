@@ -6,10 +6,10 @@
 def problem():
 	num =  2**1000
 	str_num = str(num)
-	list_num = map(int, list(str_num))
+	list_num = list(map(int, list(str_num)))
 	return sum(list_num)
 
 
 
 if __name__ == "__main__":
-	print problem()
+	print(problem())

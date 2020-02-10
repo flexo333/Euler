@@ -9,12 +9,12 @@ def month_add(m,y):
 
 def problem():
 	day_count = -2
-	for year in xrange(1900,1901,1):
+	for year in range(1900,1901,1):
 		for item in month_dict:
 			day_count += month_add(item,year)
 	monday_counter = 0
 
-	for year in xrange(1901,2001,1):
+	for year in range(1901,2001,1):
 		for item in month_dict:
 			if (day_count + 1)%7==0:
 				monday_counter+=1
@@ -23,5 +23,5 @@ def problem():
 
 
 if __name__ == "__main__":
-	print problem()
+	print(problem())
 	

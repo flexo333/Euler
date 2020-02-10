@@ -21,11 +21,11 @@ def problem():
 			largest_p = p
 			longest_p = len(tri_list)
 
-	print largest_p
+	print(largest_p)
 
 
 
 
 
 if __name__ == "__main__":
-	print problem()
+	print(problem())

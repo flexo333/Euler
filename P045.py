@@ -22,7 +22,7 @@ def problem():
 	for i,hn in enumerate(p):
 		if hn in h:
 			# if hn in p:
-				print i,hn
+				print(i,hn)
 				count = count + 1
 				if count == 4:
 					break
@@ -36,12 +36,12 @@ def problem():
 # 1533776805
 
 # 4128501
-	print pentn(567561)
-	print trin(2873)
+	print(pentn(567561))
+	print(trin(2873))
 
-	print hexn(1437)
-	print p[:6]
+	print(hexn(1437))
+	print(p[:6])
 
 
 if __name__ == "__main__":
-	print problem()
+	print(problem())

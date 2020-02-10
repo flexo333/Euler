@@ -5,7 +5,7 @@ longnum = '731671765313306249192251196744265747423553491949349698352031277450632
 def problem():
 	max_product=0
 	str_len = 5 # New Question asks for 13. Hash has answer for 5.
-	for item in xrange(0, 1000-str_len+1):
+	for item in range(0, 1000-str_len+1):
 		short_int = longnum[item:item+str_len]
 		working_product=1
 		for x in range(0, str_len, 1):
@@ -20,4 +20,4 @@ def problem():
 
 if __name__ == "__main__":
 	# Load_MREPOS()
-	print problem()
+	print(problem())

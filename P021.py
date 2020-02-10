@@ -24,12 +24,12 @@ def divisors_pairs(factors):
 def iter_pairs(pairs):
 	if len(pairs)==1:
 		pairs
-		for y in xrange(pairs[0][1]+1):
+		for y in range(pairs[0][1]+1):
 			yield pairs[0][0]**y
 		
 	else:		
 		for i in pairs[0:1]:
-			for y in xrange(i[1]+1):
+			for y in range(i[1]+1):
 				for z in  iter_pairs(pairs[1:]):
 					yield (i[0]**y) * z 
 
@@ -40,13 +40,13 @@ def problem2():
 	PrimeList = et.primeseive(10001)
 
 	sumn = 0
-	for i in xrange(1,10001):
+	for i in range(1,10001):
 
 		di = d(i,PrimeList)
 		ddi = d(di,PrimeList)
 		if i == ddi and not i == di:
 		 	sumn += i
-	print sumn
+	print(sumn)
 
 def d2(n):
     if n == 0:
@@ -60,7 +60,7 @@ def problem():
 	# PrimeList = et.primeseive(10001)
 
 	sumn = 0
-	for i in xrange(1,10001):
+	for i in range(1,10001):
 
 		di = d2(i)
 		ddi = d2(di)
@@ -69,7 +69,7 @@ def problem():
 	return sumn
 
 if __name__ == "__main__":
-	print problem()
+	print(problem())
 	# print iterative_factorial(5)
 	# import eulertools as et
 

@@ -9,4 +9,4 @@ def problem():
 	return len(short_list)
 
 if __name__ == "__main__":
-	print problem()
+	print(problem())

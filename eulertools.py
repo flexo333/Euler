@@ -9,9 +9,9 @@ def answer_test():
         new_module = __import__(module_name)
         answer=new_module.problem()
         if answerhash[item]==hash(str(answer)):
-            print str(item) + ': Correct Answer'
+            print(str(item) + ': Correct Answer')
         else:
-            print str(item) + ': Incorrect'
+            print(str(item) + ': Incorrect')
 
 def product(A):
     output = 1
@@ -20,25 +20,25 @@ def product(A):
     return output
 
 def primeseive(max_n):
-    numbers = range(3, max_n+1, 2)
+    numbers = list(range(3, max_n+1, 2))
     half = (max_n)//2
     initial = 4
 
-    for step in xrange(3, max_n+1, 2):
-        for i in xrange(initial, half, step):
+    for step in range(3, max_n+1, 2):
+        for i in range(initial, half, step):
             numbers[i-1] = 0
         initial += 2*(step+1)
 
         if initial > half:
-            return [2] + filter(None, numbers)
+            return [2] + [_f for _f in numbers if _f]
 
 def sundaram3(n):
-    output = [0 for i in xrange(n+1)]
-    for k in xrange(4,n+1,2):
+    output = [0 for i in range(n+1)]
+    for k in range(4,n+1,2):
             output[k] = 1
 
-    for s in xrange(3,int((n+1)/2),2):
-        for k in xrange(3*s,n+1,2*s):
+    for s in range(3,int((n+1)/2),2):
+        for k in range(3*s,n+1,2*s):
             output[k] = 1
     # return [2] + filter(None, numbers)
     return [i for i,x in enumerate(output) if x==0 and i>=2]

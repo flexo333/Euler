@@ -1,7 +1,7 @@
 def problem():
 	sum_num = 0
 	sum_sqnum = 0
-	for y in xrange(1,101):
+	for y in range(1,101):
 		sum_sqnum += y**2
 		sum_num += y
 

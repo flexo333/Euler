@@ -3,7 +3,7 @@ def recur_fract(x):
 	divisor = x
 	top_num = 10
 	div = [[],[],[]]
-	for i in xrange(1,999): #Could use while True
+	for i in range(1,999): #Could use while True
 		
 		d,r =  divmod(top_num, x) 
 		if not r in div[2]:

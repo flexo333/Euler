@@ -15,5 +15,5 @@ def problem():
  	return sumnn
  	
 if __name__ == "__main__":
-	print problem()
+	print(problem())
 	 

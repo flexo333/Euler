@@ -12,5 +12,5 @@ def problem():
 
 
 if __name__ == "__main__":
-	print problem()
+	print(problem())
 	

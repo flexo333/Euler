@@ -15,7 +15,7 @@ def prime_facts(fn_num_1, fn_nnum_2, PrimeList):
 def problem():
 	max_len = 0
 	P_List_1 = et.primeseive(50)
-	for n in xrange(1, 15000, 1):
+	for n in range(1, 15000, 1):
 		num_1 = int(n/2 ) + n%2
 		num_2 = 2 * int(n/2) + n%2 
 		my_factors = prime_facts(num_1, num_2,P_List_1)
@@ -29,4 +29,4 @@ def problem():
 			break
 
 if __name__ == "__main__":
-		print problem()
+		print(problem())

@@ -12,19 +12,19 @@ def is_pandigit(test_num):
 
 
 def problem():
-	for n in xrange(2,100):
-		int_list = range(1,n+1)
+	for n in range(2,100):
+		int_list = list(range(1,n+1))
 
-		for x in xrange(10000,1,-1):
+		for x in range(10000,1,-1):
 
 			test_sum = list(str(x * y) for y in int_list)
 
 			if is_pandigit(''.join(test_sum)):
-				print n,x,test_sum
+				print(n,x,test_sum)
 				break
 
 
 
 if __name__ == "__main__":
-	print problem()
-	print is_pandigit(198273645)
+	print(problem())
+	print(is_pandigit(198273645))

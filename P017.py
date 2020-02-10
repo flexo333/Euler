@@ -4,7 +4,7 @@ teens_dict = {0:'ten',1:'eleven', 2:'twelve',3:'thirteen',4:'fourteen', 5:'fifte
 
 def num_to_word(x):
 	wordnum=''
-	num_list = map(int, list(str(x).zfill(3)))
+	num_list = list(map(int, list(str(x).zfill(3))))
 	wordnum += single_dict[num_list[0]]
 	if not num_list[0] == 0:
 		wordnum += 'hundred'
@@ -20,11 +20,11 @@ def num_to_word(x):
 
 def problem():
 	counter = 0
-	for i in xrange(1,1001):
+	for i in range(1,1001):
 		# print num_to_word(i)
 		counter += len(num_to_word(i))
 	return counter + 1
 
 
 if __name__ == "__main__":
-	print problem()
+	print(problem())

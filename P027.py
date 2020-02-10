@@ -6,8 +6,8 @@ def my_function(n,a,b):
 
 def problem():
 	maxn = 0
-	for a in xrange(-1000, 1000):
-			for b in xrange(-1000, 1000):
+	for a in range(-1000, 1000):
+			for b in range(-1000, 1000):
 				n = 0
 
 				while et.isprime(my_function(n, a, b)):
@@ -22,8 +22,8 @@ def problem():
 def problem_wsimon():
 	maxn = 0
 	P =set(et.primeseive(10000))
-	for a in xrange(-1000, 1000):
-			for b in xrange(-1000, 1000):
+	for a in range(-1000, 1000):
+			for b in range(-1000, 1000):
 				n = 0
 
 				while n**2 + a * n + b in P:
@@ -35,7 +35,7 @@ def problem_wsimon():
 	return answer
 
 if __name__ == "__main__":
-	print problem()
+	print(problem())
 
 
 

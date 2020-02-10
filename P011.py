@@ -14,18 +14,18 @@ def problem():
 	max_sumn = 0
 
 
-	for r in xrange(0, 20):
-		for c in xrange(0, 17):
+	for r in range(0, 20):
+		for c in range(0, 17):
 			sumn = float(ma[r][c]) * float(ma[r][c+1]) * float(ma[r][c+2]) * float(ma[r][c+3])
 			if sumn > max_sumn: max_sumn=sumn
 		if r < 17:
-			for c in xrange(0, 17):
+			for c in range(0, 17):
 				sumn = float(ma[r][c]) * float(ma[r+1][c+1]) * float(ma[r+2][c+2]) * float(ma[r+3][c+3])
 				if sumn > max_sumn: max_sumn=sumn
-			for c in xrange(0, 17):
+			for c in range(0, 17):
 				sumn = float(ma[r][c+3]) * float(ma[r+1][c+2]) * float(ma[r+2][c+1]) * float(ma[r+3][c])
 				if sumn > max_sumn: max_sumn=sumn
-			for c in xrange(0, 20):
+			for c in range(0, 20):
 				sumn = float(ma[r][c]) * float(ma[r+1][c]) * float(ma[r+2][c]) * float(ma[r+3][c])
 				if sumn > max_sumn:
 					max_sumn=sumn

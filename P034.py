@@ -1,6 +1,6 @@
 def fact(n):
 	prod = 1
-	for x in xrange(1,n+1):
+	for x in range(1,n+1):
 		prod *= x
 	return prod
 
@@ -20,4 +20,4 @@ def problem():
 
 
 if __name__ == "__main__":
-	print problem()	
+	print(problem())	

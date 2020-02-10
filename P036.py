@@ -5,13 +5,13 @@ def palindrome_check(my_num):
 		return False
 
 def palindrome_seive(max_n):
-	numbers = range(1, max_n+1)
+	numbers = list(range(1, max_n+1))
 
 	for i in range(1, max_n+1):
 		if not palindrome_check(i):
 			numbers[i-1] = 0
 
-	return filter(None, numbers)
+	return [_f for _f in numbers if _f]
 
 def problem():
 	palindrome_list = palindrome_seive(1000000)
@@ -23,4 +23,4 @@ def problem():
 	return sum(binary_palindrome)
 
 if __name__ == "__main__":
-	print problem()
+	print(problem())

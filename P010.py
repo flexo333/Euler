@@ -11,5 +11,5 @@ def problem():
 
 if __name__ == "__main__":
 	# Load_MREPOS()
-	print problem()
+	print(problem())
 

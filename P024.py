@@ -9,13 +9,13 @@ def lexi(number_l):
 				
 def fact(n):
 	prod = 1
-	for x in xrange(1,n+1):
+	for x in range(1,n+1):
 		prod *= x
 	return prod
 
 def problem():
 	# for i in xrange(p):
-	my_list = [fact(i) for i in xrange(9,0,-1)]
+	my_list = [fact(i) for i in range(9,0,-1)]
 	test = 10**6
 
 	my_counts = []
@@ -26,7 +26,7 @@ def problem():
 		else:
 			my_counts.append(x)
 		test = y
-	num_list = list(xrange(0,10))
+	num_list = list(range(0,10))
 	
 	answer=''
 	for item in my_counts:
@@ -41,7 +41,7 @@ def getPermutations(string):
     if len(string) == 1:
         yield string
     else:
-        for i in xrange(len(string)):
+        for i in range(len(string)):
             for perm in getPermutations(string[:i] + string[i+1:]):
                 yield string[i] + perm
 
@@ -50,11 +50,11 @@ def brute_force():
 	for i in (lexi(list([0,1,2,3,4,5,6,7,8,9]))):
 		counter += 1
 		if counter == 1000000:
-			print i
+			print(i)
 			break
 
 
 if __name__ == "__main__":
 
 	# brute_force()
-	print problem()
+	print(problem())
