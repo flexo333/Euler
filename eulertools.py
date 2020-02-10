@@ -2,22 +2,22 @@ answerhash ={1: -159953675, 2: -1337476823, 3: 634321538, 4: -238341804, 5: 7530
 PE_Key = '58980-xBPoLTzXbtaga2FyRiVIwvzKN4odT8T8gGUUVIka'
 
 def answer_test():
-	# numb=xrange(1,8)
-	numb = [34]
-	for item in numb:
-		module_name = 'P' + str(item).zfill(3) 
-		new_module = __import__(module_name)
-		answer=new_module.problem()
-		if answerhash[item]==hash(str(answer)):
-			print str(item) + ': Correct Answer'
-		else:
-			print str(item) + ': Incorrect'
+    # numb=xrange(1,8)
+    numb = [34]
+    for item in numb:
+        module_name = 'P' + str(item).zfill(3) 
+        new_module = __import__(module_name)
+        answer=new_module.problem()
+        if answerhash[item]==hash(str(answer)):
+            print str(item) + ': Correct Answer'
+        else:
+            print str(item) + ': Incorrect'
 
 def product(A):
-	output = 1
-	for a in A:
-		output *= a
-	return output
+    output = 1
+    for a in A:
+        output *= a
+    return output
 
 def primeseive(max_n):
     numbers = range(3, max_n+1, 2)
@@ -33,37 +33,46 @@ def primeseive(max_n):
             return [2] + filter(None, numbers)
 
 def sundaram3(n):
-	output = [0 for i in xrange(n+1)]
-	for k in xrange(4,n+1,2):
-			output[k] = 1
+    output = [0 for i in xrange(n+1)]
+    for k in xrange(4,n+1,2):
+            output[k] = 1
 
-	for s in xrange(3,int((n+1)/2),2):
-		for k in xrange(3*s,n+1,2*s):
-			output[k] = 1
-	# return [2] + filter(None, numbers)
-	return [i for i,x in enumerate(output) if x==0 and i>=2]
+    for s in xrange(3,int((n+1)/2),2):
+        for k in xrange(3*s,n+1,2*s):
+            output[k] = 1
+    # return [2] + filter(None, numbers)
+    return [i for i,x in enumerate(output) if x==0 and i>=2]
 
 def isprime(self):
-	n = abs(self)
-	if n == 1 or n ==2 or n == 0:
-		return True
-	for i in range(2,int(n**0.5)+1):
-		if n%i == 0:
-			return False
-	return True
+    n = abs(self)
+    if n == 1 or n ==2 or n == 0:
+        return True
+    for i in range(2,int(n**0.5)+1):
+        if n%i == 0:
+            return False
+    return True
+
+def lexi(number_l):
+    number_list = number_l
+    if len(number_list)<=1:
+        yield str(number_list[0])
+    else:
+        for x in number_list:
+            for y in lexi([i for i in number_list if i != x]):
+                yield str(x) + str(y)
 
 def factorise(P,x):
-	r = x
-	output = []
-	for p in P:
-		while True:
-			k,q = divmod(r,p)
-			if q != 0:
-				break
-			r = k
-			output.append(p)
-	return output
+    r = x
+    output = []
+    for p in P:
+        while True:
+            k,q = divmod(r,p)
+            if q != 0:
+                break
+            r = k
+            output.append(p)
+    return output
 
 if __name__ == "__main__":
-	# primeseive(2000000)
-	answer_test()
+    # primeseive(2000000)
+    answer_test()
