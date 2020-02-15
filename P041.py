@@ -1,20 +1,20 @@
 
-from eulertools import isprime, lexi
+from eulertools import is_prime, lexi
 	
 
 def problem():
 
 	for i in lexi([9,8,7,6,5,4,3,2,1]):
-	    if isprime(float(i)):
+	    if is_prime(float(i)):
 	        return i
 
 	for i in lexi([8,7,6,5,4,3,2,1]):
-	    if isprime(float(i)):
+	    if is_prime(float(i)):
 	        return i
 
 
 	for i in lexi([7,6,5,4,3,2,1]):
-	    if isprime(float(i)):
+	    if is_prime(float(i)):
 	        return i
 	        break
 

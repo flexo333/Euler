@@ -10,7 +10,7 @@ def problem():
 			for b in range(-1000, 1000):
 				n = 0
 
-				while et.isprime(my_function(n, a, b)):
+				while et.is_prime(my_function(n, a, b)):
 					n += 1
 				if n > maxn:
 					maxn = n
