@@ -48,12 +48,6 @@ def problem2():
             i += 1
         return i - 4
 
-if __name__ == "__main__":
-    print(problem2())
-    # 'problem'  148043.22
-#     123.75 sec
-
-
 
 # *******
 # Alternate Code
@@ -78,12 +72,25 @@ def find_dist_prime_factor(n):
     return len(dist_fact_list)
 
 
-consec_num, i = 0, 1
-while consec_num != 4:
-    if find_dist_prime_factor(i) == 4:
-        consec_num += 1
-    else:
-        consec_num = 0
-    i += 1
-print(i - 4)
+def problem3():
+    consec_num, i = 0, 1
+    while consec_num != 4:
+        if find_dist_prime_factor(i) == 4:
+            consec_num += 1
+        else:
+            consec_num = 0
+        i += 1
+    return i - 4
 
+
+
+
+
+if __name__ == "__main__":
+    print(problem2())
+    # 'problem'  148043.22
+#     123.75 sec
+
+
+x = problem3()
+print(x)

@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91ab956b-845d-4d5e-9304-4984697a2e49" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/P048.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P049.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Euler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Euler.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P027.py" beforeDir="false" afterPath="$PROJECT_DIR$/P027.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P041.py" beforeDir="false" afterPath="$PROJECT_DIR$/P041.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eulertools.py" beforeDir="false" afterPath="$PROJECT_DIR$/eulertools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P047.py" beforeDir="false" afterPath="$PROJECT_DIR$/P047.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P049.py" beforeDir="false" afterPath="$PROJECT_DIR$/P049.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +25,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectId" id="1Xp8QPkdikokyAXjlS0xWyFsshj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -46,29 +44,7 @@
       <recent name="C:\Code\Euler" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.scratch_1">
-    <configuration name="P001" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Euler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P001.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.P049 (1)">
     <configuration name="P047" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Euler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,6 +79,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P048.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="P049 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Euler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P049.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.scratch_1" />
+        <item itemvalue="Python.P049 (1)" />
         <item itemvalue="Python.P047" />
+        <item itemvalue="Python.scratch_1" />
         <item itemvalue="Python.P049" />
         <item itemvalue="Python.P048" />
-        <item itemvalue="Python.P001" />
       </list>
     </recent_temporary>
   </component>
@@ -188,30 +185,58 @@
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state x="927" y="429" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/74.0.1846.1080@74.0.1846.1080" timestamp="1581734923441" />
+    <state x="263" y="294" key="#xdebugger.XInspectDialog" timestamp="1581749780129">
+      <screen x="72" y="0" width="1848" height="1080" />
+    </state>
+    <state x="263" y="294" key="#xdebugger.XInspectDialog/72.0.1848.1080@72.0.1848.1080" timestamp="1581749780129" />
     <state x="864" y="294" key="FileChooserDialogImpl" timestamp="1581734918999">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state x="864" y="294" key="FileChooserDialogImpl/74.0.1846.1080@74.0.1846.1080" timestamp="1581734918999" />
-    <state width="1366" height="266" key="GridCell.Tab.0.bottom" timestamp="1581736969742">
-      <screen x="74" y="0" width="1846" height="1080" />
+    <state width="1366" height="267" key="GridCell.Tab.0.bottom" timestamp="1581750674433">
+      <screen x="72" y="0" width="1848" height="1080" />
     </state>
+    <state width="1366" height="267" key="GridCell.Tab.0.bottom/72.0.1848.1080@72.0.1848.1080" timestamp="1581750674433" />
     <state width="1366" height="266" key="GridCell.Tab.0.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1581736969742" />
-    <state width="1366" height="266" key="GridCell.Tab.0.center" timestamp="1581736969742">
-      <screen x="74" y="0" width="1846" height="1080" />
+    <state width="1366" height="267" key="GridCell.Tab.0.center" timestamp="1581750674433">
+      <screen x="72" y="0" width="1848" height="1080" />
     </state>
+    <state width="1366" height="267" key="GridCell.Tab.0.center/72.0.1848.1080@72.0.1848.1080" timestamp="1581750674433" />
     <state width="1366" height="266" key="GridCell.Tab.0.center/74.0.1846.1080@74.0.1846.1080" timestamp="1581736969742" />
-    <state width="1366" height="266" key="GridCell.Tab.0.left" timestamp="1581736969742">
-      <screen x="74" y="0" width="1846" height="1080" />
+    <state width="1366" height="267" key="GridCell.Tab.0.left" timestamp="1581750674433">
+      <screen x="72" y="0" width="1848" height="1080" />
     </state>
+    <state width="1366" height="267" key="GridCell.Tab.0.left/72.0.1848.1080@72.0.1848.1080" timestamp="1581750674433" />
     <state width="1366" height="266" key="GridCell.Tab.0.left/74.0.1846.1080@74.0.1846.1080" timestamp="1581736969742" />
-    <state width="1366" height="266" key="GridCell.Tab.0.right" timestamp="1581736969742">
-      <screen x="74" y="0" width="1846" height="1080" />
+    <state width="1366" height="267" key="GridCell.Tab.0.right" timestamp="1581750674433">
+      <screen x="72" y="0" width="1848" height="1080" />
     </state>
+    <state width="1366" height="267" key="GridCell.Tab.0.right/72.0.1848.1080@72.0.1848.1080" timestamp="1581750674433" />
     <state width="1366" height="266" key="GridCell.Tab.0.right/74.0.1846.1080@74.0.1846.1080" timestamp="1581736969742" />
+    <state width="1366" height="329" key="GridCell.Tab.1.bottom" timestamp="1581750168930">
+      <screen x="72" y="0" width="1848" height="1080" />
+    </state>
+    <state width="1366" height="329" key="GridCell.Tab.1.bottom/72.0.1848.1080@72.0.1848.1080" timestamp="1581750168930" />
+    <state width="1366" height="329" key="GridCell.Tab.1.center" timestamp="1581750168930">
+      <screen x="72" y="0" width="1848" height="1080" />
+    </state>
+    <state width="1366" height="329" key="GridCell.Tab.1.center/72.0.1848.1080@72.0.1848.1080" timestamp="1581750168930" />
+    <state width="1366" height="329" key="GridCell.Tab.1.left" timestamp="1581750168930">
+      <screen x="72" y="0" width="1848" height="1080" />
+    </state>
+    <state width="1366" height="329" key="GridCell.Tab.1.left/72.0.1848.1080@72.0.1848.1080" timestamp="1581750168930" />
+    <state width="1366" height="329" key="GridCell.Tab.1.right" timestamp="1581750168930">
+      <screen x="72" y="0" width="1848" height="1080" />
+    </state>
+    <state width="1366" height="329" key="GridCell.Tab.1.right/72.0.1848.1080@72.0.1848.1080" timestamp="1581750168930" />
     <state x="500" y="183" key="SettingsEditor" timestamp="1581732701199">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
     <state x="500" y="183" key="SettingsEditor/74.0.1846.1080@74.0.1846.1080" timestamp="1581732701199" />
+    <state width="700" height="500" key="XDebugger.FullValuePopup" timestamp="1581749227861">
+      <screen x="72" y="0" width="1848" height="1080" />
+    </state>
+    <state width="700" height="500" key="XDebugger.FullValuePopup/72.0.1848.1080@72.0.1848.1080" timestamp="1581749227861" />
     <state x="698" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1581732907089">
       <screen x="74" y="0" width="1846" height="1080" />
     </state>
