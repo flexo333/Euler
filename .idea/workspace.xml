@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91ab956b-845d-4d5e-9304-4984697a2e49" name="Default" comment="">
+    <list default="true" id="91ab956b-845d-4d5e-9304-4984697a2e49" name="Default" comment="Started on Euler again 2020">
+      <change afterPath="$PROJECT_DIR$/EulerProject.sublime-project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P055.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P056.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P057.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P058.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P059.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P060.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p059_cipher.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P047.py" beforeDir="false" afterPath="$PROJECT_DIR$/P047.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EulerProject.sublime-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/EulerProject.sublime-workspace" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/P049.py" beforeDir="false" afterPath="$PROJECT_DIR$/P049.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eulertools.py" beforeDir="false" afterPath="$PROJECT_DIR$/eulertools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +33,16 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectId" id="1Xp8QPkdikokyAXjlS0xWyFsshj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
@@ -44,7 +55,7 @@
       <recent name="C:\Code\Euler" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.P049 (1)">
+  <component name="RunManager" selected="Python.P060">
     <configuration name="P047" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Euler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="P049 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="P049" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Euler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="P049" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="P060" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Euler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,7 +131,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P049.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P060.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,10 +163,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.P049 (1)" />
-        <item itemvalue="Python.P047" />
-        <item itemvalue="Python.scratch_1" />
+        <item itemvalue="Python.P060" />
         <item itemvalue="Python.P049" />
+        <item itemvalue="Python.scratch_1" />
+        <item itemvalue="Python.P047" />
         <item itemvalue="Python.P048" />
       </list>
     </recent_temporary>
@@ -171,75 +182,98 @@
       <option name="presentableId" value="Default" />
       <updated>1581325539467</updated>
     </task>
+    <task id="LOCAL-00001" summary="Started on Euler again 2020">
+      <created>1581737861511</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581737861512</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Started on Euler again 2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started on Euler again 2020" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="716" y="155" key="#P001" timestamp="1581731725597">
-      <screen x="74" y="0" width="1846" height="1080" />
+    <state x="498" y="27" key="CommitChangelistDialog2" timestamp="1592466092225">
+      <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state x="716" y="155" key="#P001/74.0.1846.1080@74.0.1846.1080" timestamp="1581731725597" />
-    <state x="927" y="429" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1581734923441">
-      <screen x="74" y="0" width="1846" height="1080" />
+    <state x="498" y="27" key="CommitChangelistDialog2/86.0.1450.864@86.0.1450.864" timestamp="1592466092225" />
+    <state width="1429" height="277" key="GridCell.Tab.0.bottom" timestamp="1591968625821">
+      <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state x="927" y="429" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/74.0.1846.1080@74.0.1846.1080" timestamp="1581734923441" />
-    <state x="263" y="294" key="#xdebugger.XInspectDialog" timestamp="1581749780129">
-      <screen x="72" y="0" width="1848" height="1080" />
+    <state width="1429" height="277" key="GridCell.Tab.0.bottom/86.0.1450.864@86.0.1450.864" timestamp="1591968625821" />
+    <state width="585" height="293" key="GridCell.Tab.0.bottom/86.0.1834.1080@86.0.1834.1080" timestamp="1590827113994" />
+    <state width="1429" height="277" key="GridCell.Tab.0.center" timestamp="1591968625821">
+      <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state x="263" y="294" key="#xdebugger.XInspectDialog/72.0.1848.1080@72.0.1848.1080" timestamp="1581749780129" />
-    <state x="864" y="294" key="FileChooserDialogImpl" timestamp="1581734918999">
-      <screen x="74" y="0" width="1846" height="1080" />
+    <state width="1429" height="277" key="GridCell.Tab.0.center/86.0.1450.864@86.0.1450.864" timestamp="1591968625821" />
+    <state width="585" height="293" key="GridCell.Tab.0.center/86.0.1834.1080@86.0.1834.1080" timestamp="1590827113993" />
+    <state width="1429" height="277" key="GridCell.Tab.0.left" timestamp="1591968625821">
+      <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state x="864" y="294" key="FileChooserDialogImpl/74.0.1846.1080@74.0.1846.1080" timestamp="1581734918999" />
-    <state width="1366" height="267" key="GridCell.Tab.0.bottom" timestamp="1581750674433">
-      <screen x="72" y="0" width="1848" height="1080" />
+    <state width="1429" height="277" key="GridCell.Tab.0.left/86.0.1450.864@86.0.1450.864" timestamp="1591968625821" />
+    <state width="585" height="293" key="GridCell.Tab.0.left/86.0.1834.1080@86.0.1834.1080" timestamp="1590827113993" />
+    <state width="1429" height="277" key="GridCell.Tab.0.right" timestamp="1591968625821">
+      <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1366" height="267" key="GridCell.Tab.0.bottom/72.0.1848.1080@72.0.1848.1080" timestamp="1581750674433" />
-    <state width="1366" height="266" key="GridCell.Tab.0.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1581736969742" />
-    <state width="1366" height="267" key="GridCell.Tab.0.center" timestamp="1581750674433">
-      <screen x="72" y="0" width="1848" height="1080" />
+    <state width="1429" height="277" key="GridCell.Tab.0.right/86.0.1450.864@86.0.1450.864" timestamp="1591968625821" />
+    <state width="585" height="293" key="GridCell.Tab.0.right/86.0.1834.1080@86.0.1834.1080" timestamp="1590827113993" />
+    <state width="1429" height="277" key="GridCell.Tab.1.bottom" timestamp="1591968625821">
+      <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1366" height="267" key="GridCell.Tab.0.center/72.0.1848.1080@72.0.1848.1080" timestamp="1581750674433" />
-    <state width="1366" height="266" key="GridCell.Tab.0.center/74.0.1846.1080@74.0.1846.1080" timestamp="1581736969742" />
-    <state width="1366" height="267" key="GridCell.Tab.0.left" timestamp="1581750674433">
-      <screen x="72" y="0" width="1848" height="1080" />
+    <state width="1429" height="277" key="GridCell.Tab.1.bottom/86.0.1450.864@86.0.1450.864" timestamp="1591968625821" />
+    <state width="1171" height="364" key="GridCell.Tab.1.bottom/86.0.1834.1080@86.0.1834.1080" timestamp="1590826646020" />
+    <state width="1429" height="277" key="GridCell.Tab.1.center" timestamp="1591968625821">
+      <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1366" height="267" key="GridCell.Tab.0.left/72.0.1848.1080@72.0.1848.1080" timestamp="1581750674433" />
-    <state width="1366" height="266" key="GridCell.Tab.0.left/74.0.1846.1080@74.0.1846.1080" timestamp="1581736969742" />
-    <state width="1366" height="267" key="GridCell.Tab.0.right" timestamp="1581750674433">
-      <screen x="72" y="0" width="1848" height="1080" />
+    <state width="1429" height="277" key="GridCell.Tab.1.center/86.0.1450.864@86.0.1450.864" timestamp="1591968625821" />
+    <state width="1171" height="364" key="GridCell.Tab.1.center/86.0.1834.1080@86.0.1834.1080" timestamp="1590826646019" />
+    <state width="1429" height="277" key="GridCell.Tab.1.left" timestamp="1591968625821">
+      <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1366" height="267" key="GridCell.Tab.0.right/72.0.1848.1080@72.0.1848.1080" timestamp="1581750674433" />
-    <state width="1366" height="266" key="GridCell.Tab.0.right/74.0.1846.1080@74.0.1846.1080" timestamp="1581736969742" />
-    <state width="1366" height="329" key="GridCell.Tab.1.bottom" timestamp="1581750168930">
-      <screen x="72" y="0" width="1848" height="1080" />
+    <state width="1429" height="277" key="GridCell.Tab.1.left/86.0.1450.864@86.0.1450.864" timestamp="1591968625821" />
+    <state width="1171" height="364" key="GridCell.Tab.1.left/86.0.1834.1080@86.0.1834.1080" timestamp="1590826646019" />
+    <state width="1429" height="277" key="GridCell.Tab.1.right" timestamp="1591968625821">
+      <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1366" height="329" key="GridCell.Tab.1.bottom/72.0.1848.1080@72.0.1848.1080" timestamp="1581750168930" />
-    <state width="1366" height="329" key="GridCell.Tab.1.center" timestamp="1581750168930">
-      <screen x="72" y="0" width="1848" height="1080" />
+    <state width="1429" height="277" key="GridCell.Tab.1.right/86.0.1450.864@86.0.1450.864" timestamp="1591968625821" />
+    <state width="1171" height="364" key="GridCell.Tab.1.right/86.0.1834.1080@86.0.1834.1080" timestamp="1590826646019" />
+    <state x="534" y="174" width="540" height="524" key="StructurePopup" timestamp="1591958221854">
+      <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1366" height="329" key="GridCell.Tab.1.center/72.0.1848.1080@72.0.1848.1080" timestamp="1581750168930" />
-    <state width="1366" height="329" key="GridCell.Tab.1.left" timestamp="1581750168930">
-      <screen x="72" y="0" width="1848" height="1080" />
+    <state x="534" y="174" width="540" height="524" key="StructurePopup/86.0.1450.864@86.0.1450.864" timestamp="1591958221854" />
+    <state x="576" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1592465994228">
+      <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1366" height="329" key="GridCell.Tab.1.left/72.0.1848.1080@72.0.1848.1080" timestamp="1581750168930" />
-    <state width="1366" height="329" key="GridCell.Tab.1.right" timestamp="1581750168930">
-      <screen x="72" y="0" width="1848" height="1080" />
-    </state>
-    <state width="1366" height="329" key="GridCell.Tab.1.right/72.0.1848.1080@72.0.1848.1080" timestamp="1581750168930" />
-    <state x="500" y="183" key="SettingsEditor" timestamp="1581732701199">
-      <screen x="74" y="0" width="1846" height="1080" />
-    </state>
-    <state x="500" y="183" key="SettingsEditor/74.0.1846.1080@74.0.1846.1080" timestamp="1581732701199" />
-    <state width="700" height="500" key="XDebugger.FullValuePopup" timestamp="1581749227861">
-      <screen x="72" y="0" width="1848" height="1080" />
-    </state>
-    <state width="700" height="500" key="XDebugger.FullValuePopup/72.0.1848.1080@72.0.1848.1080" timestamp="1581749227861" />
-    <state x="698" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1581732907089">
-      <screen x="74" y="0" width="1846" height="1080" />
-    </state>
-    <state x="698" y="365" key="com.intellij.ide.util.TipDialog/74.0.1846.1080@74.0.1846.1080" timestamp="1581732907089" />
+    <state x="576" y="292" key="com.intellij.ide.util.TipDialog/86.0.1450.864@86.0.1450.864" timestamp="1592465994228" />
+    <state x="706" y="365" key="com.intellij.ide.util.TipDialog/86.0.1834.1080@86.0.1834.1080" timestamp="1590825899429" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/P060.py</url>
+          <line>120</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/P060.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/P060.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
