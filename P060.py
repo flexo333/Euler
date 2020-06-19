@@ -76,7 +76,7 @@ def problem_1():
 
 @timeit
 def problem():
-    primes = sorted(list(set(ps(8000))))
+    primes = sorted(list(set(ps(12000))))
     print('The number of primes is {}'.format(len(primes)))
     # A Python program to print all
     # combinations of given length
@@ -128,7 +128,26 @@ def problem():
             new_list.append(my_set)
             print(my_set)
 
+max_prime = 34429 + 1
+
+@eulertools.timeit
+def problem_notmine():
+
+    for a in range(13, max_prime, 2):
+      if eulertools.is_prime(a):
+        for b in range(a + 2, max_prime-a, 2):
+          if eulertools.is_prime(b) and eulertools.is_prime(int(str(a) + str(b))) and eulertools.is_prime(int(str(b) + str(a))):
+              for c in range(b + 2, max_prime-a-b, 2):
+                if eulertools.is_prime(c) and eulertools.is_prime(int(str(a) + str(c))) and eulertools.is_prime(int(str(b) + str(c))) and eulertools.is_prime(int(str(c) + str(a))) and eulertools.is_prime(int(str(c) + str(b))):
+                    for d in range(c + 2, max_prime-a-b-c, 2):
+                      if eulertools.is_prime(d) and eulertools.is_prime(int(str(a) + str(d))) and eulertools.is_prime(int(str(b) + str(d))) and eulertools.is_prime(int(str(c) + str(d))) and eulertools.is_prime(int(str(d) + str(a))) and eulertools.is_prime(int(str(d) + str(b))) and eulertools.is_prime(int(str(d) + str(c))):
+                          for e in range(d + 2, max_prime-a-b-c-d, 2):
+                            if eulertools.is_prime(e) and eulertools.is_prime(int(str(a) + str(e))) and eulertools.is_prime(int(str(b) + str(e))) and eulertools.is_prime(int(str(c) + str(e))) and eulertools.is_prime(int(str(d) + str(e))) and eulertools.is_prime(int(str(e) + str(a))) and eulertools.is_prime(int(str(e) + str(b))) and eulertools.is_prime(int(str(e) + str(c))) and eulertools.is_prime(int(str(e) + str(d))):
+                                return a + b + c + d + e
+
 
 if __name__ == "__main__":
     print(problem())
     # print(168*167*166)
+
+

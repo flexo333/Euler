@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91ab956b-845d-4d5e-9304-4984697a2e49" name="Default" comment="Started on Euler again 2020">
-      <change afterPath="$PROJECT_DIR$/EulerProject.sublime-project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P055.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P056.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P057.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P058.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P059.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P060.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p059_cipher.txt" afterDir="false" />
+    <list default="true" id="91ab956b-845d-4d5e-9304-4984697a2e49" name="Default" comment="True up my PC's">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/willb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P061.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EulerProject.sublime-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/EulerProject.sublime-workspace" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P049.py" beforeDir="false" afterPath="$PROJECT_DIR$/P049.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P060.py" beforeDir="false" afterPath="$PROJECT_DIR$/P060.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eulertools.py" beforeDir="false" afterPath="$PROJECT_DIR$/eulertools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +39,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -55,49 +51,7 @@
       <recent name="C:\Code\Euler" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.P060">
-    <configuration name="P047" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Euler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P047.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="P048" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Euler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P048.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.P061">
     <configuration name="P049" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Euler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,6 +94,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="P061" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Euler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P061.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="scratch_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Euler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,13 +136,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="scratch_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Euler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.P061" />
+        <item itemvalue="Python.scratch_3" />
         <item itemvalue="Python.P060" />
         <item itemvalue="Python.P049" />
         <item itemvalue="Python.scratch_1" />
-        <item itemvalue="Python.P047" />
-        <item itemvalue="Python.P048" />
       </list>
     </recent_temporary>
   </component>
@@ -205,45 +201,45 @@
       <screen x="86" y="0" width="1450" height="864" />
     </state>
     <state x="498" y="27" key="CommitChangelistDialog2/86.0.1450.864@86.0.1450.864" timestamp="1592466092225" />
-    <state width="1429" height="277" key="GridCell.Tab.0.bottom" timestamp="1591968625821">
+    <state width="1429" height="143" key="GridCell.Tab.0.bottom" timestamp="1592577647750">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.0.bottom/86.0.1450.864@86.0.1450.864" timestamp="1591968625821" />
+    <state width="1429" height="143" key="GridCell.Tab.0.bottom/86.0.1450.864@86.0.1450.864" timestamp="1592577647750" />
     <state width="585" height="293" key="GridCell.Tab.0.bottom/86.0.1834.1080@86.0.1834.1080" timestamp="1590827113994" />
-    <state width="1429" height="277" key="GridCell.Tab.0.center" timestamp="1591968625821">
+    <state width="1429" height="143" key="GridCell.Tab.0.center" timestamp="1592577647750">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.0.center/86.0.1450.864@86.0.1450.864" timestamp="1591968625821" />
+    <state width="1429" height="143" key="GridCell.Tab.0.center/86.0.1450.864@86.0.1450.864" timestamp="1592577647750" />
     <state width="585" height="293" key="GridCell.Tab.0.center/86.0.1834.1080@86.0.1834.1080" timestamp="1590827113993" />
-    <state width="1429" height="277" key="GridCell.Tab.0.left" timestamp="1591968625821">
+    <state width="1429" height="143" key="GridCell.Tab.0.left" timestamp="1592577647750">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.0.left/86.0.1450.864@86.0.1450.864" timestamp="1591968625821" />
+    <state width="1429" height="143" key="GridCell.Tab.0.left/86.0.1450.864@86.0.1450.864" timestamp="1592577647750" />
     <state width="585" height="293" key="GridCell.Tab.0.left/86.0.1834.1080@86.0.1834.1080" timestamp="1590827113993" />
-    <state width="1429" height="277" key="GridCell.Tab.0.right" timestamp="1591968625821">
+    <state width="1429" height="143" key="GridCell.Tab.0.right" timestamp="1592577647750">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.0.right/86.0.1450.864@86.0.1450.864" timestamp="1591968625821" />
+    <state width="1429" height="143" key="GridCell.Tab.0.right/86.0.1450.864@86.0.1450.864" timestamp="1592577647750" />
     <state width="585" height="293" key="GridCell.Tab.0.right/86.0.1834.1080@86.0.1834.1080" timestamp="1590827113993" />
-    <state width="1429" height="277" key="GridCell.Tab.1.bottom" timestamp="1591968625821">
+    <state width="1429" height="277" key="GridCell.Tab.1.bottom" timestamp="1592576708295">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.1.bottom/86.0.1450.864@86.0.1450.864" timestamp="1591968625821" />
+    <state width="1429" height="277" key="GridCell.Tab.1.bottom/86.0.1450.864@86.0.1450.864" timestamp="1592576708295" />
     <state width="1171" height="364" key="GridCell.Tab.1.bottom/86.0.1834.1080@86.0.1834.1080" timestamp="1590826646020" />
-    <state width="1429" height="277" key="GridCell.Tab.1.center" timestamp="1591968625821">
+    <state width="1429" height="277" key="GridCell.Tab.1.center" timestamp="1592576708295">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.1.center/86.0.1450.864@86.0.1450.864" timestamp="1591968625821" />
+    <state width="1429" height="277" key="GridCell.Tab.1.center/86.0.1450.864@86.0.1450.864" timestamp="1592576708295" />
     <state width="1171" height="364" key="GridCell.Tab.1.center/86.0.1834.1080@86.0.1834.1080" timestamp="1590826646019" />
-    <state width="1429" height="277" key="GridCell.Tab.1.left" timestamp="1591968625821">
+    <state width="1429" height="277" key="GridCell.Tab.1.left" timestamp="1592576708295">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.1.left/86.0.1450.864@86.0.1450.864" timestamp="1591968625821" />
+    <state width="1429" height="277" key="GridCell.Tab.1.left/86.0.1450.864@86.0.1450.864" timestamp="1592576708295" />
     <state width="1171" height="364" key="GridCell.Tab.1.left/86.0.1834.1080@86.0.1834.1080" timestamp="1590826646019" />
-    <state width="1429" height="277" key="GridCell.Tab.1.right" timestamp="1591968625821">
+    <state width="1429" height="277" key="GridCell.Tab.1.right" timestamp="1592576708295">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.1.right/86.0.1450.864@86.0.1450.864" timestamp="1591968625821" />
+    <state width="1429" height="277" key="GridCell.Tab.1.right/86.0.1450.864@86.0.1450.864" timestamp="1592576708295" />
     <state width="1171" height="364" key="GridCell.Tab.1.right/86.0.1834.1080@86.0.1834.1080" timestamp="1590826646019" />
     <state x="534" y="174" width="540" height="524" key="StructurePopup" timestamp="1591958221854">
       <screen x="86" y="0" width="1450" height="864" />
@@ -260,11 +256,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/P060.py</url>
-          <line>120</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/P060.py</url>
           <line>44</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -272,6 +263,21 @@
           <url>file://$PROJECT_DIR$/P060.py</url>
           <line>42</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/P061.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/P061.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/P061.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

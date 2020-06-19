@@ -92,7 +92,7 @@
 			"file": "P060.py",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 3611,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -253,6 +253,8 @@
 	],
 	"file_history":
 	[
+		"/C/Code/Euler/.git/COMMIT_EDITMSG",
+		"/C/Code/Euler/.git/rebase-merge/git-rebase-todo",
 		"/C/Code/Euler/P058.py",
 		"/C/Code/Euler/P057.py",
 		"/C/Code/Euler/P055.py",
@@ -398,7 +400,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 3611,
 						"regions":
 						{
 						},
@@ -416,7 +418,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 591.2,
+						"translation.y": 591.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -446,7 +448,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1124.8,
+						"translation.y": 1125.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
