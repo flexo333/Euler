@@ -1,5 +1,6 @@
 # import eulertools as et
 from eulertools import timeit
+from itertools import combinations, permutations
 
 """
 """
@@ -20,21 +21,28 @@ def is_cyclical(n, m):
     else:
         return False
 
+cycles = (TRIANGLES, SQUARES, PENTAGONALS, HEXAGONALS, HEPTAGONALS, OCTAGONALS)
+
+
 @timeit
 def problem():
-    for triangle in TRIANGLES:
-        for square in SQUARES:
-            if is_cyclical(triangle, square):
-                for pentagonal in PENTAGONALS:
-                    if is_cyclical(square, pentagonal):
-                        for hexagonal in HEXAGONALS:
-                            if str(pentagonal)[-2:] == str(hexagonal)[0:2]:
-                                for heptagonal in HEPTAGONALS:
-                                    if str(hexagonal)[-2:] == str(heptagonal)[0:2]:
-                                        for octagonal in OCTAGONALS:
-                                            if str(heptagonal)[-2:] == str(octagonal)[0:2]:
-                                                # if str(octagonal)[-2:] == str(triangle)[0:2]:
-                                                print(triangle, square, pentagonal, hexagonal, heptagonal, octagonal)
+    for combo in permutations(cycles, 6):
+
+
+        for a in combo[0]:
+            for b in combo[1]:
+                if is_cyclical(a, b):
+                    for c in combo[2]:
+                        if is_cyclical(b, c):
+                            for d in combo[3]:
+                                if str(c)[-2:] == str(d)[0:2]:
+                                    for e in combo[4]:
+                                        if str(d)[-2:] == str(e)[0:2]:
+                                            for f in combo[5]:
+                                                if str(e)[-2:] == str(f)[0:2]:
+                                                    if str(f)[-2:] == str(a)[0:2]:
+                                                        print(a, b, c, d, e, f)
+                                                        print(a + b + c + d + e + f)
 
 
 if __name__ == "__main__":
