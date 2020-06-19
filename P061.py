@@ -26,23 +26,23 @@ cycles = (TRIANGLES, SQUARES, PENTAGONALS, HEXAGONALS, HEPTAGONALS, OCTAGONALS)
 
 @timeit
 def problem():
-    for combo in permutations(cycles, 6):
+        for combo in permutations(cycles, 6):
 
 
-        for a in combo[0]:
-            for b in combo[1]:
-                if is_cyclical(a, b):
-                    for c in combo[2]:
-                        if is_cyclical(b, c):
-                            for d in combo[3]:
-                                if str(c)[-2:] == str(d)[0:2]:
-                                    for e in combo[4]:
-                                        if str(d)[-2:] == str(e)[0:2]:
-                                            for f in combo[5]:
-                                                if str(e)[-2:] == str(f)[0:2]:
-                                                    if str(f)[-2:] == str(a)[0:2]:
-                                                        print(a, b, c, d, e, f)
-                                                        print(a + b + c + d + e + f)
+            for a in combo[0]:
+                for b in combo[1]:
+                    if is_cyclical(a, b):
+                        for c in combo[2]:
+                            if is_cyclical(b, c):
+                                for d in combo[3]:
+                                    if str(c)[-2:] == str(d)[0:2]:
+                                        for e in combo[4]:
+                                            if str(d)[-2:] == str(e)[0:2]:
+                                                for f in combo[5]:
+                                                    if str(e)[-2:] == str(f)[0:2]:
+                                                        if str(f)[-2:] == str(a)[0:2]:
+                                                            print(a, b, c, d, e, f)
+                                                            print(a + b + c + d + e + f)
 
 
 if __name__ == "__main__":
