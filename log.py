@@ -3,18 +3,20 @@ import sys
 from logging.handlers import TimedRotatingFileHandler
 
 FORMATTER = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
-LOG_FILE = "my_app.log"
+LOG_FILE = "euler.log"
 
 
 def get_console_handler():
     console_handler = logging.StreamHandler(sys.stdout)
-    console_handler.setFormatter(FORMATTER)
+    console_handler.setFormatter(logging.Formatter('%(name)-12s: %(levelname)-8s %(message)s'))
+    console_handler.setLevel(logging.INFO)
     return console_handler
 
 
 def get_file_handler():
     file_handler = TimedRotatingFileHandler(LOG_FILE, when='midnight')
     file_handler.setFormatter(FORMATTER)
+    file_handler.setLevel(logging.DEBUG)
     return file_handler
 
 

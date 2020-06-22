@@ -1,4 +1,8 @@
+import sys
 import time
+import log
+
+LOG = log.get_logger(sys.argv[0])
 
 
 answerhash = {1: -159953675,
@@ -544,7 +548,7 @@ def timeit(method):
         result = method(*args, **kw)
         te = time.time()
 
-        print('%r (%r, %r) %2.2f sec' %
+        LOG.info('%r (%r, %r) %2.2f sec' %
               (method.__name__, args, kw, te - ts))
         return result
 

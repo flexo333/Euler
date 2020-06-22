@@ -2,50 +2,27 @@
 from eulertools import timeit
 from itertools import combinations, permutations
 
-import logging
+import log
 
-FORMATTER = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
-
-
-def get_logger(logger_name):
-    logger = logging.getLogger(logger_name)
-
-    logger.setLevel(logging.DEBUG) # better to have too much log than not enough
-
-    logger.addHandler(get_console_handler())
-    logger.addHandler(get_file_handler())
-
-    # with this pattern, it's rarely necessary to propagate the error up to parent
-    logger.propagate = False
-
-    return logger
-
-"""
-"""
-# import eulertools as et
-from eulertools import timeit
-from itertools import combinations, permutations
+LOG = log.get_logger(__file__)
 
 """
 """
 
+
+@timeit
 def problem():
     summer = 0
     for i in range(1, 25):
-        print(f'{i}, {power_count(i)}')
-        summer += power_count(i)
+        LOG.debug(f"{i}, {i**2}")
+        summer += i**2
 
     return summer
 
 
 if __name__ == "__main__":
-    # result = problem()
-    # print(result)
+    result = problem()
+    print(result)
 
-    logging.warning('Watch out!')  # will print a message to the console
-    logging.info('I told you so')  # will not print anything
-
-
-
-
-
+    LOG.warning("Watch out!")  # will print a message to the console
+    LOG.info("I told you so")  # will not print anything
