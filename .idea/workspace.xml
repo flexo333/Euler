@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91ab956b-845d-4d5e-9304-4984697a2e49" name="Default" comment="2 More">
-      <change afterPath="$PROJECT_DIR$/P062.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P063.py" afterDir="false" />
+    <list default="true" id="91ab956b-845d-4d5e-9304-4984697a2e49" name="Default" comment="PLus Some more">
+      <change afterPath="$PROJECT_DIR$/P064.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P061.py" beforeDir="false" afterPath="$PROJECT_DIR$/P061.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EulerProject.sublime-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/EulerProject.sublime-workspace" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,28 +47,7 @@
       <recent name="C:\Code\Euler" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.P063">
-    <configuration name="P060" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Euler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P060.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.P064">
     <configuration name="P061" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Euler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,6 +111,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="P064" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Euler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P064.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="scratch_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Euler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.P064" />
         <item itemvalue="Python.P063" />
         <item itemvalue="Python.P062" />
         <item itemvalue="Python.P061" />
         <item itemvalue="Python.scratch_3" />
-        <item itemvalue="Python.P060" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592579041483</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="PLus Some more">
+      <created>1592581343491</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592581343491</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,61 +212,62 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Started on Euler again 2020" />
     <MESSAGE value="2 More" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 More" />
+    <MESSAGE value="PLus Some more" />
+    <option name="LAST_COMMIT_MESSAGE" value="PLus Some more" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="498" y="27" key="CommitChangelistDialog2" timestamp="1592579040870">
+    <state x="498" y="27" key="CommitChangelistDialog2" timestamp="1592581342895">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state x="498" y="27" key="CommitChangelistDialog2/86.0.1450.864@86.0.1450.864" timestamp="1592579040870" />
-    <state width="1429" height="271" key="GridCell.Tab.0.bottom" timestamp="1592581276711">
+    <state x="498" y="27" key="CommitChangelistDialog2/86.0.1450.864@86.0.1450.864" timestamp="1592581342895" />
+    <state width="1429" height="271" key="GridCell.Tab.0.bottom" timestamp="1592810505259">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="271" key="GridCell.Tab.0.bottom/86.0.1450.864@86.0.1450.864" timestamp="1592581276711" />
+    <state width="1429" height="271" key="GridCell.Tab.0.bottom/86.0.1450.864@86.0.1450.864" timestamp="1592810505259" />
     <state width="585" height="293" key="GridCell.Tab.0.bottom/86.0.1834.1080@86.0.1834.1080" timestamp="1590827113994" />
-    <state width="1429" height="271" key="GridCell.Tab.0.center" timestamp="1592581276711">
+    <state width="1429" height="271" key="GridCell.Tab.0.center" timestamp="1592810505259">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="271" key="GridCell.Tab.0.center/86.0.1450.864@86.0.1450.864" timestamp="1592581276711" />
+    <state width="1429" height="271" key="GridCell.Tab.0.center/86.0.1450.864@86.0.1450.864" timestamp="1592810505259" />
     <state width="585" height="293" key="GridCell.Tab.0.center/86.0.1834.1080@86.0.1834.1080" timestamp="1590827113993" />
-    <state width="1429" height="271" key="GridCell.Tab.0.left" timestamp="1592581276711">
+    <state width="1429" height="271" key="GridCell.Tab.0.left" timestamp="1592810505258">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="271" key="GridCell.Tab.0.left/86.0.1450.864@86.0.1450.864" timestamp="1592581276711" />
+    <state width="1429" height="271" key="GridCell.Tab.0.left/86.0.1450.864@86.0.1450.864" timestamp="1592810505258" />
     <state width="585" height="293" key="GridCell.Tab.0.left/86.0.1834.1080@86.0.1834.1080" timestamp="1590827113993" />
-    <state width="1429" height="271" key="GridCell.Tab.0.right" timestamp="1592581276711">
+    <state width="1429" height="271" key="GridCell.Tab.0.right" timestamp="1592810505259">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="271" key="GridCell.Tab.0.right/86.0.1450.864@86.0.1450.864" timestamp="1592581276711" />
+    <state width="1429" height="271" key="GridCell.Tab.0.right/86.0.1450.864@86.0.1450.864" timestamp="1592810505259" />
     <state width="585" height="293" key="GridCell.Tab.0.right/86.0.1834.1080@86.0.1834.1080" timestamp="1590827113993" />
-    <state width="1429" height="277" key="GridCell.Tab.1.bottom" timestamp="1592576708295">
+    <state width="1429" height="277" key="GridCell.Tab.1.bottom" timestamp="1592581467525">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.1.bottom/86.0.1450.864@86.0.1450.864" timestamp="1592576708295" />
+    <state width="1429" height="277" key="GridCell.Tab.1.bottom/86.0.1450.864@86.0.1450.864" timestamp="1592581467525" />
     <state width="1171" height="364" key="GridCell.Tab.1.bottom/86.0.1834.1080@86.0.1834.1080" timestamp="1590826646020" />
-    <state width="1429" height="277" key="GridCell.Tab.1.center" timestamp="1592576708295">
+    <state width="1429" height="277" key="GridCell.Tab.1.center" timestamp="1592581467525">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.1.center/86.0.1450.864@86.0.1450.864" timestamp="1592576708295" />
+    <state width="1429" height="277" key="GridCell.Tab.1.center/86.0.1450.864@86.0.1450.864" timestamp="1592581467525" />
     <state width="1171" height="364" key="GridCell.Tab.1.center/86.0.1834.1080@86.0.1834.1080" timestamp="1590826646019" />
-    <state width="1429" height="277" key="GridCell.Tab.1.left" timestamp="1592576708295">
+    <state width="1429" height="277" key="GridCell.Tab.1.left" timestamp="1592581467524">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.1.left/86.0.1450.864@86.0.1450.864" timestamp="1592576708295" />
+    <state width="1429" height="277" key="GridCell.Tab.1.left/86.0.1450.864@86.0.1450.864" timestamp="1592581467524" />
     <state width="1171" height="364" key="GridCell.Tab.1.left/86.0.1834.1080@86.0.1834.1080" timestamp="1590826646019" />
-    <state width="1429" height="277" key="GridCell.Tab.1.right" timestamp="1592576708295">
+    <state width="1429" height="277" key="GridCell.Tab.1.right" timestamp="1592581467525">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.1.right/86.0.1450.864@86.0.1450.864" timestamp="1592576708295" />
+    <state width="1429" height="277" key="GridCell.Tab.1.right/86.0.1450.864@86.0.1450.864" timestamp="1592581467525" />
     <state width="1171" height="364" key="GridCell.Tab.1.right/86.0.1834.1080@86.0.1834.1080" timestamp="1590826646019" />
     <state x="534" y="174" width="540" height="524" key="StructurePopup" timestamp="1591958221854">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
     <state x="534" y="174" width="540" height="524" key="StructurePopup/86.0.1450.864@86.0.1450.864" timestamp="1591958221854" />
-    <state x="576" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1592465994228">
+    <state x="576" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1592742383633">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state x="576" y="292" key="com.intellij.ide.util.TipDialog/86.0.1450.864@86.0.1450.864" timestamp="1592465994228" />
+    <state x="576" y="292" key="com.intellij.ide.util.TipDialog/86.0.1450.864@86.0.1450.864" timestamp="1592742383633" />
     <state x="706" y="365" key="com.intellij.ide.util.TipDialog/86.0.1834.1080@86.0.1834.1080" timestamp="1590825899429" />
     <state x="474" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1592578626712">
       <screen x="86" y="0" width="1450" height="864" />
