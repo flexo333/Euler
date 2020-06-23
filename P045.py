@@ -1,6 +1,20 @@
+import numpy as np
+from eulertools import timeit
+
+
 def pentn(n):
     a = n * (3 * n - 1) / 2
     return a
+
+
+def pent(n):
+    a = int(n * (3 * n - 1) / 2)
+    return a
+
+
+def ispent(a):
+    n = 1 / 6 * ((24 * a + 1) ** (1 / 2) + 1)
+    return n - int(n) == 0
 
 
 def trin(n):
@@ -13,39 +27,27 @@ def hexn(n):
     return a
 
 
-import numpy as np
-
-
+@timeit
 def problem():
-    a = np.arange(150, 600000)
-    h = hexn(np.arange(0, 1500))
-    # t = trin(np.arange(0,600000))
-    p = pentn(np.arange(0, 600000))
+    # a = np.arange(150, 600000)
+    # h = hexn(np.arange(0, 15000))
+    # t = trin(np.arange(0, 600000))
+    # p = pentn(np.arange(0, 600000))
+    h = set([hexn(x) for x in range(1, 600000)])
+    t = set([trin(x) for x in range(1, 600000)])
+    p = set([pentn(x) for x in range(1, 600000)])
 
+    # print(p[:50])
     count = 0
-    for i, hn in enumerate(p):
-        if hn in h:
-            # if hn in p:
-            print(i, hn)
-            count = count + 1
-            if count == 4:
-                break
-    # print t.argwhere(4128501)
-    # print np.extract(4128501,h)
-    # print t[11326]
-    # t 2873 4128501
-    # p 567561
-    # h 1437
-
-    # 1533776805
-
-    # 4128501
-    print(pentn(567561))
-    print(trin(2873))
-
-    print(hexn(1437))
-    print(p[:6])
+    for i, hn in enumerate(h):
+        if hn in p:
+            if hn in t:
+                print(i, hn)
+                count = count + 1
+                if count == 6:
+                    return i, hn
 
 
 if __name__ == "__main__":
     print(problem())
+    print(ispent(4128501))
