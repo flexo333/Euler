@@ -1,14 +1,19 @@
-# import logging
+import log
+# from eulertools import timeit
+
+LOG = log.get_logger(__name__)
+
+PENTAGONALS = [int(n * (3 * n - 1) / 2) for n in range(1,10000)]
 
 
 def pent(n):
-    a = n * (3 * n - 1) / 2
+    a = int(n * (3 * n - 1) / 2)
     return a
 
 
 def ispent(a):
     n = 1 / 6 * ((24 * a + 1) ** (1 / 2) + 1)
-    return n
+    return n == int(n)
 
 
 def lexi(number_l, n=-1):
@@ -23,6 +28,7 @@ def lexi(number_l, n=-1):
                 yield str(x) + ',' + str(y)
 
 
+# @timeit
 def pent_dict():
     pent_d = {}
     pent_num = {}
@@ -32,14 +38,12 @@ def pent_dict():
     return pent_d, pent_num
 
 
-
 def problem():
-
-        print(i)
-        print(pent(a), pent(b))
+    print(i)
+    print(pent(a), pent(b))
 
 
 if __name__ == "__main__":
     print((problem()))
-    f = [i for i in lexi(range(1,10),2)]
+    f = [i for i in lexi(range(1, 10), 2)]
     print(f)
