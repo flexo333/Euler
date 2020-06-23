@@ -1,9 +1,10 @@
 import log
+
 # from eulertools import timeit
 
 LOG = log.get_logger(__name__)
 
-PENTAGONALS = [int(n * (3 * n - 1) / 2) for n in range(1,10000)]
+PENTAGONALS = [int(n * (3 * n - 1) / 2) for n in range(1, 10000)]
 
 
 def pent(n):
@@ -19,13 +20,13 @@ def ispent(a):
 def lexi(number_l, n=-1):
     number_list = number_l
     if n == 0:
-        yield ''
+        yield ""
     elif len(number_list) <= 1:
         yield str(number_list[0])
     else:
         for x in number_list:
             for y in lexi([i for i in number_list if i != x], n - 1):
-                yield str(x) + ',' + str(y)
+                yield str(x) + "," + str(y)
 
 
 # @timeit
