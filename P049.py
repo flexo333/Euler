@@ -1,50 +1,41 @@
 from collections import defaultdict
-
+from itertools import combinations
 
 import eulertools as et
 from eulertools import timeit
-import logging
+import log
 
-logging.basicConfig(level=logging.DEBUG)
+LOG = log.get_logger(__file__)
 
-
-
-"""
-The arithmetic sequence, 1487, 4817, 8147, in which each of the terms increases by 3330,
- is unusual in two ways: (i) each of the three terms are prime, and, (ii) each of the
- 4-digit numbers are permutations of one another.
-
-There are no arithmetic sequences made up of three 1-, 2-, or 3-digit primes,
-exhibiting this property, but there is one other 4-digit increasing sequence.
-
-What 12-digit number do you form by concatenating the three terms in this sequence?
-"""
 
 
 @timeit
 def problem():
-    prime_list = et.primeseive(9999)
-    prime_list = list(p for p in prime_list if p > 1000)
-    test = list(p for p in prime_list if ''.join(sorted(str(p))) == '1478')
-    logging.debug(f'Filtered List{test}')
+    prime_list = list(p for p in et.primeseive(9999))# if p > 1000)
 
-    prime_sets = list(''.join(sorted(str(p))) for p in prime_list)
+    # prime_sets = list(''.join(sorted(str(p))) for p in prime_list)
 
     primes = defaultdict(list)
 
     for prime in prime_list:
-        if prime > 1000:
-            primes[''.join(sorted(str(prime)))].append(prime)
-    print_string = primes['1478']
-    logging.debug(f'primedict    {print_string}')
+        primes["".join(sorted(str(prime)))].append(prime)
+    filtered_dictionary = {
+        key: value for key, value in primes.items() if len(value) > 2
+    }
 
-    logging.debug(len(prime_sets))
-    logging.debug(prime_sets[:5])
+    LOG.info(f"Options before filtering is {len(primes.keys())}")
+    LOG.info(f"Options with 3 or more #'s is {len(filtered_dictionary.keys())}")
 
+    for k, v in primes.items():
+        for combo in combinations(v, 3):
+            sorted_combo = sorted(combo)
+            if sorted_combo[1] - sorted_combo[0] == sorted_combo[2] - sorted_combo[1]:
+                LOG.info(f"The combo is:{sorted_combo}")
+                return_val = sorted_combo
+    return ''.join(str(i) for i in return_val)
 
 
 if __name__ == "__main__":
     print(problem())
     # 'problem'  148043.22
 #     123.75 sec
-
