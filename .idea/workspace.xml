@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91ab956b-845d-4d5e-9304-4984697a2e49" name="Default" comment="PLus Some more">
-      <change afterPath="$PROJECT_DIR$/P064.py" afterDir="false" />
+    <list default="true" id="91ab956b-845d-4d5e-9304-4984697a2e49" name="Default" comment="Started on Euler again 2020">
+      <change afterPath="$PROJECT_DIR$/P051.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EulerProject.sublime-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/EulerProject.sublime-workspace" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +14,26 @@
     <SUITE FILE_PATH="coverage/Euler$P001.coverage" NAME="P001 Coverage Results" MODIFIED="1581326155945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="flexo_logging" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -29,7 +47,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -40,15 +57,15 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Code\Euler" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.P064">
-    <configuration name="P061" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.P050">
+    <configuration name="P049" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Euler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,7 +77,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P061.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P049.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="P062" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="P050" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Euler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,7 +98,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P062.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P050.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.P050" />
+        <item itemvalue="Python.P049" />
+        <item itemvalue="Python.scratch_3" />
         <item itemvalue="Python.P064" />
         <item itemvalue="Python.P063" />
-        <item itemvalue="Python.P062" />
-        <item itemvalue="Python.P061" />
-        <item itemvalue="Python.scratch_3" />
       </list>
     </recent_temporary>
   </component>
@@ -202,73 +219,137 @@
       <option name="project" value="LOCAL" />
       <updated>1592581343491</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Toying with logging">
+      <created>1592830634535</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592830634535</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Finished the first 50">
+      <created>1592919702505</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592919702505</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Started on Euler again 2020" />
     <MESSAGE value="2 More" />
     <MESSAGE value="PLus Some more" />
-    <option name="LAST_COMMIT_MESSAGE" value="PLus Some more" />
+    <MESSAGE value="Toying with logging" />
+    <MESSAGE value="Finished the first 50" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished the first 50" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="498" y="27" key="CommitChangelistDialog2" timestamp="1592581342895">
+    <state x="580" y="263" key="#com.intellij.tools.ToolEditorDialog" timestamp="1592823689714">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state x="498" y="27" key="CommitChangelistDialog2/86.0.1450.864@86.0.1450.864" timestamp="1592581342895" />
-    <state width="1429" height="271" key="GridCell.Tab.0.bottom" timestamp="1592810505259">
+    <state x="580" y="263" key="#com.intellij.tools.ToolEditorDialog/86.0.1450.864@86.0.1450.864" timestamp="1592823689714" />
+    <state x="498" y="2" key="CommitChangelistDialog2" timestamp="1592919701283">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="271" key="GridCell.Tab.0.bottom/86.0.1450.864@86.0.1450.864" timestamp="1592810505259" />
+    <state x="498" y="2" key="CommitChangelistDialog2/86.0.1450.864@86.0.1450.864" timestamp="1592919701283" />
+    <state width="1429" height="277" key="GridCell.Tab.0.bottom" timestamp="1592920890822">
+      <screen x="86" y="0" width="1450" height="864" />
+    </state>
+    <state width="1429" height="277" key="GridCell.Tab.0.bottom/86.0.1450.864@86.0.1450.864" timestamp="1592920890822" />
     <state width="585" height="293" key="GridCell.Tab.0.bottom/86.0.1834.1080@86.0.1834.1080" timestamp="1590827113994" />
-    <state width="1429" height="271" key="GridCell.Tab.0.center" timestamp="1592810505259">
+    <state width="1429" height="277" key="GridCell.Tab.0.center" timestamp="1592920890822">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="271" key="GridCell.Tab.0.center/86.0.1450.864@86.0.1450.864" timestamp="1592810505259" />
+    <state width="1429" height="277" key="GridCell.Tab.0.center/86.0.1450.864@86.0.1450.864" timestamp="1592920890822" />
     <state width="585" height="293" key="GridCell.Tab.0.center/86.0.1834.1080@86.0.1834.1080" timestamp="1590827113993" />
-    <state width="1429" height="271" key="GridCell.Tab.0.left" timestamp="1592810505258">
+    <state width="1429" height="277" key="GridCell.Tab.0.left" timestamp="1592920890822">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="271" key="GridCell.Tab.0.left/86.0.1450.864@86.0.1450.864" timestamp="1592810505258" />
+    <state width="1429" height="277" key="GridCell.Tab.0.left/86.0.1450.864@86.0.1450.864" timestamp="1592920890822" />
     <state width="585" height="293" key="GridCell.Tab.0.left/86.0.1834.1080@86.0.1834.1080" timestamp="1590827113993" />
-    <state width="1429" height="271" key="GridCell.Tab.0.right" timestamp="1592810505259">
+    <state width="1429" height="277" key="GridCell.Tab.0.right" timestamp="1592920890822">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="271" key="GridCell.Tab.0.right/86.0.1450.864@86.0.1450.864" timestamp="1592810505259" />
+    <state width="1429" height="277" key="GridCell.Tab.0.right/86.0.1450.864@86.0.1450.864" timestamp="1592920890822" />
     <state width="585" height="293" key="GridCell.Tab.0.right/86.0.1834.1080@86.0.1834.1080" timestamp="1590827113993" />
-    <state width="1429" height="277" key="GridCell.Tab.1.bottom" timestamp="1592581467525">
+    <state width="1429" height="277" key="GridCell.Tab.1.bottom" timestamp="1592920890822">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.1.bottom/86.0.1450.864@86.0.1450.864" timestamp="1592581467525" />
+    <state width="1429" height="277" key="GridCell.Tab.1.bottom/86.0.1450.864@86.0.1450.864" timestamp="1592920890822" />
     <state width="1171" height="364" key="GridCell.Tab.1.bottom/86.0.1834.1080@86.0.1834.1080" timestamp="1590826646020" />
-    <state width="1429" height="277" key="GridCell.Tab.1.center" timestamp="1592581467525">
+    <state width="1429" height="277" key="GridCell.Tab.1.center" timestamp="1592920890822">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.1.center/86.0.1450.864@86.0.1450.864" timestamp="1592581467525" />
+    <state width="1429" height="277" key="GridCell.Tab.1.center/86.0.1450.864@86.0.1450.864" timestamp="1592920890822" />
     <state width="1171" height="364" key="GridCell.Tab.1.center/86.0.1834.1080@86.0.1834.1080" timestamp="1590826646019" />
-    <state width="1429" height="277" key="GridCell.Tab.1.left" timestamp="1592581467524">
+    <state width="1429" height="277" key="GridCell.Tab.1.left" timestamp="1592920890822">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.1.left/86.0.1450.864@86.0.1450.864" timestamp="1592581467524" />
+    <state width="1429" height="277" key="GridCell.Tab.1.left/86.0.1450.864@86.0.1450.864" timestamp="1592920890822" />
     <state width="1171" height="364" key="GridCell.Tab.1.left/86.0.1834.1080@86.0.1834.1080" timestamp="1590826646019" />
-    <state width="1429" height="277" key="GridCell.Tab.1.right" timestamp="1592581467525">
+    <state width="1429" height="277" key="GridCell.Tab.1.right" timestamp="1592920890822">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.1.right/86.0.1450.864@86.0.1450.864" timestamp="1592581467525" />
+    <state width="1429" height="277" key="GridCell.Tab.1.right/86.0.1450.864@86.0.1450.864" timestamp="1592920890822" />
     <state width="1171" height="364" key="GridCell.Tab.1.right/86.0.1834.1080@86.0.1834.1080" timestamp="1590826646019" />
+    <state x="320" y="75" key="SettingsEditor" timestamp="1592823697969">
+      <screen x="86" y="0" width="1450" height="864" />
+    </state>
+    <state x="320" y="75" key="SettingsEditor/86.0.1450.864@86.0.1450.864" timestamp="1592823697969" />
     <state x="534" y="174" width="540" height="524" key="StructurePopup" timestamp="1591958221854">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
     <state x="534" y="174" width="540" height="524" key="StructurePopup/86.0.1450.864@86.0.1450.864" timestamp="1591958221854" />
-    <state x="576" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1592742383633">
+    <state x="404" y="165" key="Vcs.Push.Dialog.v2" timestamp="1592821430466">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
-    <state x="576" y="292" key="com.intellij.ide.util.TipDialog/86.0.1450.864@86.0.1450.864" timestamp="1592742383633" />
+    <state x="404" y="165" key="Vcs.Push.Dialog.v2/86.0.1450.864@86.0.1450.864" timestamp="1592821430466" />
+    <state x="576" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1592905550435">
+      <screen x="86" y="0" width="1450" height="864" />
+    </state>
+    <state x="576" y="292" key="com.intellij.ide.util.TipDialog/86.0.1450.864@86.0.1450.864" timestamp="1592905550435" />
     <state x="706" y="365" key="com.intellij.ide.util.TipDialog/86.0.1834.1080@86.0.1834.1080" timestamp="1590825899429" />
+    <state x="630" y="195" key="git4idea.rebase.GitRebaseEditor" timestamp="1592914465462">
+      <screen x="86" y="0" width="1450" height="864" />
+    </state>
+    <state x="630" y="195" key="git4idea.rebase.GitRebaseEditor/86.0.1450.864@86.0.1450.864" timestamp="1592914465462" />
     <state x="474" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1592578626712">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
@@ -304,5 +385,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="len(prime_list)" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
